@@ -1,0 +1,144 @@
+
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+@media screen and (max-width: 1100px){
+	.text {
+		margin-top: 130px;
+        font-size: 70px;
+    }
+
+    .btn{
+    	margin-top: 50px;
+    }
+    #lab, #lab1, #lab2{
+    	width: 90%;
+    }
+    .contact-title {
+		font-size: 35px;
+        text-align: center;
+	}
+	#contact-title {
+		font-size: 14px;
+	}
+	#adress {
+		font-size: 23px;
+	}
+  
+}
+
+@media screen and (max-width: 800px){
+	.card {
+        width: 90%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .menu-desc{
+    	display: none;
+    }
+    #mobile-menu{
+    	display: block;
+    }
+    .text{
+    	font-size: 40px;
+    	margin-top: 200px;
+    }
+    .btn{
+    	margin-top: 50px;
+    }
+    .titl{
+    	font-size: 36px;
+    }
+    .wrap6{
+		margin-top: 50px;
+	}
+	.contact{
+		float: none;
+		width: 100%;
+	}
+	.contact-title {
+		font-size: 35px;
+        text-align: center;
+	}
+	#contact-title {
+		font-size: 14px;
+	}
+	#adress {
+		font-size: 23px;
+	}
+	.form{
+		width: 85%;
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+	}
+	#lab, #lab1, #lab2{
+		border: 1px solid #736161;
+		border-radius: 5px;
+		width: 100%;
+	}
+	#text-content{
+		font-size: 30px;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	html, body{
+		width: 100%;
+	}
+	.text{
+		font-size: 30px;
+		margin-top: 125px;
+	}
+	.wrap{
+		height: 750px;
+	}
+	.btn{
+		margin-top: 62px;
+	}
+	#ulp{
+		margin-left: 5px;
+	}
+	.text-bott{
+		font-size: 24px;
+	}
+	.titl{
+		font-size: 20px;
+	}
+	#line{
+		width: 100%;
+	}
+	.content{
+		width: 100%;
+	}
+	.card{
+		grid-template-columns: 50% 50%;
+	}
+	#text-card {
+		font-size: 14px;
+	}
+	#text-card-titl {
+		font-size: 12px;
+	}
+	.wrap3{
+		margin-top: -100px;
+	}
+	#text-content {
+		font-size: 20px;
+	}
+	.wrap5{
+		margin-top: -120px;
+	}
+	
+}
